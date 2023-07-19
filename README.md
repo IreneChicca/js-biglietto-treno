@@ -10,7 +10,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 ## Svolgimento
 
-- Chiedo all'utente il numero di km da percorrere con un prompt
-- Chiedo all'utente il numero età con un prompt
+- Chiedo all'utente il numero di km da percorrere con un prompt e lo inserisco all'interno di una variabile const
+- Chiedo all'utente il numero età con un prompt e lo inserisco all'interno di una variabile const
 - Imposto una condizione secondo le regole imposte
 - Stampo sulla pagina il prezzo del biglietto
