@@ -18,16 +18,20 @@ console.log(age)
 
 if (age < 18) {
 
+
+    document.getElementById("price").innerHTML = "Il prezzo del tuo biglietto è di " + ((km - (km * 20 / 100)).toFixed(2)) + " €"
     console.log(km - (km * 20 / 100))
 
 }
 
 else if (age > 65) {
 
+    document.getElementById("price").innerHTML = "Il prezzo del tuo biglietto è di " + ((km - (km * 40 / 100)).toFixed(2)) + " €"
     console.log(km - (km * 40 / 100))
 }
 
 else {
 
+    document.getElementById("price").innerHTML = "Il prezzo del tuo biglietto è di " + (km) + " €"
     console.log(km)
 }
